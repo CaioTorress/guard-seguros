@@ -24,8 +24,8 @@ class ContactUsRequest extends FormRequest
         return [
             'name' => 'required|string|min:3|max:90',
             'email' => 'required|email',
-            'area' => 'required|string|min:3|max:90',
-            'company' => 'required|string|min:3|max:90',
+            'insurance_type' => 'nullable|string|min:3|max:90',
+            'other_insurance_type' => 'nullable|string|min:3|max:90',
             'phone' => 'required|string|min:3|max:120',
           //  'message' => 'nullabel|string|min:3|max:120',
         ];

@@ -17,7 +17,7 @@ class ContactUsController extends Controller
             
             $work = ContactUs::create($request->all());
             //work with us
-            Mail::to('atelie@ateliedepropaganda.com.br')->send(new ContactUsMail($work));
+            Mail::to('caio.torres@ateliedepropaganda.com.br')->send(new ContactUsMail($work));
     
             if ($request->email) {
                 Mail::to($request->email)->send(new SenderContactUsMail());

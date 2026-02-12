@@ -13,9 +13,9 @@ class ContactUs extends Model
 
         'name',
         'email',
+        'insurance_type',
+        'other_insurance_type',
         'phone',
-        'company',
-        'area',
         'message'
     ];
 }

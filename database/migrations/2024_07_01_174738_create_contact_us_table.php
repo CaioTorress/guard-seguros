@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name', 100);
             $table->string('email', 100);
+            $table->string('insurance_type', 100)->nullable();
+            $table->string('other_insurance_type', 100)->nullable();
             $table->string('phone', 100);
-            $table->string('company', 100);
-            $table->string('area', 100);
             $table->text('message')->nullable();
             $table->timestamps();
         });
