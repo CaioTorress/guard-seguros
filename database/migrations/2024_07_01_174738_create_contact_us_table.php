@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('other_insurance_type', 100)->nullable();
             $table->string('phone', 100);
             $table->text('message')->nullable();
+            $table->boolean('read')->default(false);
             $table->timestamps();
         });
     }

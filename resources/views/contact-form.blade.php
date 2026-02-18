@@ -1,325 +1,315 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="x-apple-disable-message-reformatting"> 
+<html
+  lang="pt-BR"
+  dir="auto"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
     <title>Contato</title>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+      #outlook a {
+        padding: 0;
+      }
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+      body {
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
 
-    <style>
-        html,
-        body {
-            margin: 0 auto !important;
-            padding: 0 !important;
-            height: 100% !important;
-            width: 100% !important;
-            background: #f1f1f1;
-        }
+      table,
+      td {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
 
+      img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
 
-        * {
-            -ms-text-size-adjust: 100%;
-            -webkit-text-size-adjust: 100%;
-        }
-
-
-        div[style*="margin: 16px 0"] {
-            margin: 0 !important;
-        }
-
-
-        table,
-        td {
-            mso-table-lspace: 0pt !important;
-            mso-table-rspace: 0pt !important;
-        }
-
-
-        table {
-            border-spacing: 0 !important;
-            border-collapse: collapse !important;
-            table-layout: fixed !important;
-            margin: 0 auto !important;
-        }
-
-        img {
-            -ms-interpolation-mode:bicubic;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        *[x-apple-data-detectors],  /* iOS */
-        .unstyle-auto-detected-links *,
-        .aBn {
-            border-bottom: 0 !important;
-            cursor: default !important;
-            color: inherit !important;
-            text-decoration: none !important;
-            font-size: inherit !important;
-            font-family: inherit !important;
-            font-weight: inherit !important;
-            line-height: inherit !important;
-        }
-
-        .a6S {
-            display: none !important;
-            opacity: 0.01 !important;
-        }
-
-        .im {
-            color: inherit !important;
-        }
-
-        img.g-img + div {
-            display: none !important;
-        }
-
-        @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
-            u ~ div .email-container {
-                min-width: 320px !important;
-            }
-        }
-        /* iPhone 6, 6S, 7, 8, and X */
-        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
-            u ~ div .email-container {
-                min-width: 375px !important;
-            }
-        }
-        /* iPhone 6+, 7+, and 8+ */
-        @media only screen and (min-device-width: 414px) {
-            u ~ div .email-container {
-                min-width: 414px !important;
-            }
-        }
-
-        .primary{
-            background: #009bca;
-        }
-        .bg_white{
-            background: #ffffff;
-        }
-        .bg_light{
-            background: #fafafa;
-        }
-        .bg_black{
-            background: #000000;
-        }
-        .bg_dark{
-            background: rgba(0,0,0,.8);
-        }
-        .email-section{
-            padding:2.5em;
-        }
-
-        .btn{
-            padding: 10px 15px;
-            display: inline-block;
-        }
-        .btn.btn-primary{
-            border-radius: 5px;
-            background: #009bca;
-            color: #ffffff;
-        }
-        .btn.btn-white{
-            border-radius: 5px;
-            background: #ffffff;
-            color: #000000;
-        }
-        .btn.btn-white-outline{
-            border-radius: 5px;
-            background: transparent;
-            border: 1px solid #fff;
-            color: #fff;
-        }
-        .btn.btn-black-outline{
-            border-radius: 0px;
-            background: transparent;
-            border: 2px solid #000;
-            color: #000;
-            font-weight: 700;
-        }
-
-        h1,h2,h3,h4,h5,h6{
-            font-family: 'Lato', sans-serif;
-            color: #000000;
-            margin-top: 0;
-            font-weight: 400;
-        }
-
-        body{
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 1.8;
-            color: rgba(0,0,0,.4);
-        }
-
-        a{
-            color: #009bca;
-        }
-
-        .logo h1{
-            margin: 0;
-        }
-
-        .logo h1 a{
-            color: #009bca;
-            font-size: 24px;
-            font-weight: 700;
-            font-family: 'Lato', sans-serif;
-        }
-
-        .hero{
-            position: relative;
-            z-index: 0;
-        }
-
-     
-        .hero .text h2{
-            color: #000;
-            font-size: 35px;
-            margin-bottom: 0;
-            font-weight: 400;
-            line-height: 1.4;
-        }
-        .hero .text h3{
-            font-size: 24px;
-            font-weight: 300;
-        }
-        .hero .text h2 span{
-            font-weight: 600;
-            color: #009bca;
-        }
-
-        .heading-section h2{
-            color: #000000;
-            font-size: 19px;
-            margin-top: 0;
-            line-height: 1.4;
-            font-weight: 400;
-        }
-
-        .heading-section .subheading{
-            margin-bottom: 20px !important;
-            display: inline-block;
-            font-size: 13px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: rgba(0,0,0,.4);
-            position: relative;
-        }
-
-        .heading-section .subheading::after{
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: -10px;
-            content: '';
-            width: 100%;
-            height: 2px;
-            background: #009bca;
-            margin: 0 auto;
-        }
-
-        .heading-section-white{
-            color: rgba(255,255,255,.8);
-        }
-
-        .heading-section-white h2{
-            line-height: 1;
-            padding-bottom: 0;
-        }
-
-        .heading-section-white h2{
-            color: #ffffff;
-        }
-
-        .heading-section-white .subheading{
-            margin-bottom: 0;
-            display: inline-block;
-            font-size: 13px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: rgba(255,255,255,.4);
-        }
-
-        ul.social{
-            padding: 0;
-        }
-        ul.social li{
-            display: inline-block;
-            margin-right: 10px;
-        }
-
-        .footer{
-            border-top: 1px solid rgba(0,0,0,.05);
-            color: rgba(0,0,0,.5);
-        }
-
-        .footer .heading{
-            color: #000;
-            font-size: 20px;
-        }
-
-        .footer ul{
-            margin: 0;
-            padding: 0;
-        }
-
-        .footer ul li{
-            list-style: none;
-            margin-bottom: 10px;
-        }
-
-        .footer ul li a{
-            color: rgba(0,0,0,1);
-        }
+      p {
+        display: block;
+        margin: 13px 0;
+      }
     </style>
-</head>
+    <!--[if mso]>
+      <noscript>
+        <xml>
+          <o:OfficeDocumentSettings>
+            <o:AllowPNG />
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+      </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+      <style type="text/css">
+        .mj-outlook-group-fix {
+          width: 100% !important;
+        }
+      </style>
+    <![endif]-->
+    <style type="text/css">
+      @media only screen and (min-width: 480px) {
+        .mj-column-per-100 {
+          width: 100% !important;
+          max-width: 100%;
+        }
+      }
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 479px) {
+        table.mj-full-width-mobile {
+          width: 100% !important;
+        }
+        td.mj-full-width-mobile {
+          width: auto !important;
+        }
+      }
+    </style>
+  </head>
 
-<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
-    <div style="max-width: 600px; margin: 0 auto;" class="email-container">
-        <br /><br />
-        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto; padding-top: 10px;  margino-bottom:10px;">
-
+  <body style="word-spacing: normal; background-color: #d0d4d7">
+    <div
+      aria-roledescription="email"
+      style="background-color: #d0d4d7"
+      role="article"
+      lang="pt-BR"
+      dir="auto"
+    >
+      <!-- Header -->
+      <div style="background: #dddddd; background-color: #dddddd; margin: 0px auto; max-width: 600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background: #dddddd; background-color: #dddddd; width: 100%">
+          <tbody>
             <tr>
-                <td valign="middle" class="hero bg_white" style="padding: 2em 0 4em 0;">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="text" style="padding: 0 2.5em; margin-top: -40px;">
-                                    <h2 style="font-size:25px;">Novo formulário de contato preenchido no site</h2>
-
-                                    <p style="padding-top: 20px; margin-bottom: -20px;">
-                                        <p><b>Nome: </b> {{$work->name}} </p>
-                                        <p><b>Email: </b> {{$work->email}} </p>
-                                        <p><b>Telefone: </b> {{$work->phone}} </p>
-                                        <p><b>Empresa: </b> {{$work->company}} </p>
-                                        <p><b>Área: </b> {{$work->area}} </p>
-                                        <p><b>Mensagem: </b> {{$work->message}} </p>
-                                        <p><b>Data: </b> <?php echo now();?> </p>
-                                    </p>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
+              <td style="direction: ltr; font-size: 0px; padding: 0; text-align: center;">
+                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align: top; padding: 0">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td align="center" style="font-size: 0px; padding: 0; word-break: break-word;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: collapse; border-spacing: 0px;">
+                                    <tbody>
+                                      <tr>
+                                        <td style="width: 600px">
+                                          <img
+                                            alt="Guard Seguros"
+                                            src="{{ $url }}/emm/images/email-header.png"
+                                            style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;"
+                                            width="600"
+                                            height="auto"
+                                          />
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
             </tr>
+          </tbody>
         </table>
+      </div>
 
-        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+      <!-- Título -->
+      <div style="background: #c3c8d2; background-color: #c3c8d2; margin: 0px auto; max-width: 600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background: #c3c8d2; background-color: #c3c8d2; width: 100%">
+          <tbody>
             <tr>
-                <td class="bg_light" style="padding-left: 40px;">
-                    <p>Este e-mail foi gerado automaticamente, por favor não responder.</p>
-                </td>
+              <td style="direction: ltr; font-size: 0px; padding: 0; text-align: center;">
+                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align: top; padding: 0">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td align="center" style="font-size: 0px; padding: 40px 40px 0 40px; word-break: break-word;">
+                                  <div style="font-family: Arial, sans-serif; font-size: 24px; font-weight: 900; line-height: 25px; text-align: center; text-transform: uppercase; color: #184287;">
+                                    NOVO FORMULÁRIO DE CONTATO
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
             </tr>
+          </tbody>
         </table>
-        <br /><br />
+      </div>
+
+      <!-- Conteúdo - dados do formulário -->
+      <div style="background: #c3c8d2; background-color: #c3c8d2; margin: 0px auto; max-width: 600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background: #c3c8d2; background-color: #c3c8d2; width: 100%">
+          <tbody>
+            <tr>
+              <td style="direction: ltr; font-size: 0px; padding: 0; text-align: center;">
+                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align: top; padding: 0">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="font-size: 0px; padding: 32px 40px 40px 40px; word-break: break-word;">
+                                  <div style="font-family: Arial, sans-serif; font-size: 18px; line-height: 25px; color: #0e0e0e;">
+                                    <p style="margin: 8px 0;"><strong>Nome:</strong> {{ $work->name }}</p>
+                                    <p style="margin: 8px 0;"><strong>Email:</strong> {{ $work->email }}</p>
+                                    <p style="margin: 8px 0;"><strong>Telefone:</strong> {{ $work->phone }}</p>
+                                    <p style="margin: 8px 0;"><strong>Tipo de seguro:</strong> {{ $work->insurance_type }}</p>
+                                    @if($work->other_insurance_type)
+                                    <p style="margin: 8px 0;"><strong>Outro tipo de seguro:</strong> {{ $work->other_insurance_type }}</p>
+                                    @endif
+                                    <p style="margin: 8px 0;"><strong>Mensagem:</strong> {{ $work->message }}</p>
+                                    <p style="margin: 8px 0;"><strong>Data:</strong> {{ now()->format('d/m/Y H:i') }}</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Rodapé -->
+      <div style="background: #c3c8d2; background-color: #c3c8d2; margin: 0px auto; max-width: 600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background: #c3c8d2; background-color: #c3c8d2; width: 100%">
+          <tbody>
+            <tr>
+              <td style="direction: ltr; font-size: 0px; padding: 0; text-align: center;">
+                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align: top; padding: 0">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td align="center" style="font-size: 0px; padding: 0 40px 40px 40px; word-break: break-word;">
+                                  <div style="font-family: Arial, sans-serif; font-size: 14px; line-height: 24px; text-align: center; color: #0e0e0e;">
+                                    Este e-mail foi gerado automaticamente, por favor não responder.
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Footer SAC -->
+      @if(config('mail.sac_email'))
+      <div style="background: #184287; background-color: #184287; margin: 0px auto; max-width: 600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background: #184287; background-color: #184287; width: 100%">
+          <tbody>
+            <tr>
+              <td style="direction: ltr; font-size: 0px; padding: 0; text-align: center;">
+                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align: top; padding: 0">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td align="center" style="font-size: 0px; padding: 8px 40px; height: 40px; word-break: break-word;">
+                                  <div style="font-family: Arial, sans-serif; font-size: 15px; line-height: 1.5; text-align: center; color: #ffffff;">
+                                    <a href="mailto:{{ config('mail.sac_email') }}" style="color: #ffffff; text-decoration: none; font-weight: bold; font-size: 20px;">{{ config('mail.sac_email') }}</a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      @endif
+
+      <!-- ID no footer para evitar corte em clientes de e-mail -->
+      <div id="email-footer-id" style="background: #ffffff; background-color: #ffffff; margin: 0px auto; max-width: 600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background: #ffffff; background-color: #ffffff; width: 100%">
+          <tbody>
+            <tr>
+              <td style="direction: ltr; font-size: 0px; padding: 0; text-align: center;">
+                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align: top; padding: 0">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td align="left" style="font-size: 0px; padding: 0; word-break: break-word;">
+                                  <div style="font-family: Arial, sans-serif; font-size: 1px; line-height: 1px; text-align: left; color: #ffffff;">
+                                    ID: {{ now()->timestamp }}-contact-{{ $work->id ?? 'n' }}
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>

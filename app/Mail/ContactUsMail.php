@@ -15,12 +15,14 @@ class ContactUsMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public string $url = '';
+
     /**
      * Create a new message instance.
      */
-    public function __construct( public ContactUs $work)
+    public function __construct(public ContactUs $work)
     {
-        //
+        $this->url = (string) (config('app.url_front') ?? '');
     }
 
     /**

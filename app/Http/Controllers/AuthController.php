@@ -19,10 +19,14 @@ class AuthController extends Controller
 
     public function login(Request $request)
     {
+
         try {
             $credentials = $request->only('email', 'password');
 
+            
+
             if (!Auth::attempt($credentials))
+
                 return $this->unauthorized(
                     'E-mail ou senha inválidos.',
                     'Não foi possível realizar o login'
@@ -30,7 +34,11 @@ class AuthController extends Controller
 
             /** @param User $user */
             $user = Auth::user();
+
             $token = $user->createToken('login')->plainTextToken;
+
+
+            
 
             Log::info('Logando ' . $user->email);
             return $this->success(['token' => $token], 'Logado com sucesso');
@@ -104,13 +112,14 @@ class AuthController extends Controller
         }
     }
 
-    public function logout(): \Illuminate\Http\JsonResponse
-    {
-        Log::Info('Logout User ' . Auth::user()->email, 'Logout');
-        Auth::user()->tokens()->delete();
-        return $this->success([], 'Usuário deslogado');
-    }
-
+    public function logout() : \Illuminate\Http\JsonResponse
+    {   
+        /** @var User */
+        $user = Auth::user();
+        Log::Info('Logout User ' . $user->email, 'Logout');
+        $user->tokens()->delete();
+        return $this->success([], 'Usuário deslogado'); 
+    }   
     public function updatePassword(Request $request)
     {
         try {
@@ -133,7 +142,6 @@ class AuthController extends Controller
     {
         $user = $request->user();
         $return = $user->toArray();
-        $return['addresses'] = $user->myAddresses();
         return $return;
     }
 }

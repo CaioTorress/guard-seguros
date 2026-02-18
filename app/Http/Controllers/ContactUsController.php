@@ -6,6 +6,7 @@ use App\Http\Requests\ContactUsRequest;
 use App\Mail\ContactUsMail;
 use App\Mail\SenderContactUsMail;
 use App\Models\ContactUs;
+use App\Services\Log;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -27,6 +28,32 @@ class ContactUsController extends Controller
         } catch (\Exception $e) {
         
             return response()->json(['message' => $e->getMessage()], 500);
+        }
+    }
+
+    public function index()
+    {
+        $all = $this->handle(ContactUs::query());
+        
+        return $this->success($all, "Contact Us list");
+    }
+
+
+    public function update(Request $request, ContactUs $contactUs)
+    {
+        try{
+            
+            $files = $request->all();
+
+            $contactUs -> update( $files );
+    
+            return $this->success($contactUs, 'Contato Us Alterado.');
+    
+        }catch(\Exception $e){
+            Log::Error($e->getMessage(), $request->all());
+            return $this->serverError(
+                $e->getMessage(),
+                'Erro ao atualizar contato.');
         }
     }
 }

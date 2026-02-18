@@ -16,6 +16,7 @@ class ContactUs extends Model
         'insurance_type',
         'other_insurance_type',
         'phone',
-        'message'
+        'message',
+        'read'
     ];
 }

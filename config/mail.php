@@ -110,7 +110,7 @@ return [
 
     'from' => [
         'address' => 'envio.sistema@ateliedepropaganda.com.br',
-        'name' =>  'Atelie de Propaganda',
+        'name' =>  'Guard Seguros',
     ],
 
 ];

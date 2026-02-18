@@ -20,22 +20,11 @@ class ForgotPasswordMail extends Mailable
      */
     public function __construct(
         public User $user
-    ){
-        $this->url 
-            = $user->isParticipant()
-            ? config('url_front')
-            : config('url_admin');
-    }
-
-
-    /**
-     * Get the message envelope.
-     */
-    public function envelope(): Envelope
-    {
-        return new Envelope(
-            subject: 'Esqueci Senha',
-        );
+    ) {
+        $baseUrl = $user->isMaster()
+            ? config('app.url_front')
+            : config('app.url_admin');
+        $this->url = (string) ($baseUrl ?? config('app.url', ''));
     }
 
     /**
@@ -44,7 +33,7 @@ class ForgotPasswordMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.forgot-password',
+            view: 'forgot-password',
         );
     }
 
