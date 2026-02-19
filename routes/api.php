@@ -6,6 +6,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\BannerController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\InsuranceCompaniesController;
 use App\Http\Middleware\MasterMiddleware;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -22,6 +23,8 @@ Route::post('/contact-us', [ContactUsController::class, 'create']);
 Route::get('/banner', [BannerController::class, 'index']);
 Route::get('/comment', [CommentController::class, 'index']);
 Route::get('/contact', [ContactController::class, 'index']);
+Route::get('/insurance-companies', [InsuranceCompaniesController::class, 'index']);
+
 
 
 
@@ -58,5 +61,10 @@ Route::middleware('auth:sanctum')->group(function () {
 
         Route::get('/contact-us', [ContactUsController::class, 'index']);
         Route::put('/contact-us/{contactUs}', [ContactUsController::class, 'update']);
+
+        Route::post('/insurance-companies', [InsuranceCompaniesController::class, 'store']);
+        Route::get('/insurance-companies/{insuranceCompanies}', [InsuranceCompaniesController::class, 'show']);
+        Route::put('/insurance-companies/{insuranceCompanies}', [InsuranceCompaniesController::class, 'update']);
+        Route::delete('/insurance-companies/{insuranceCompanies}', [InsuranceCompaniesController::class, 'destroy']);
     });
 });
